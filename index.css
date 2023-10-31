@@ -148,7 +148,7 @@ display: block;
 
  .gallery-child-container {
     display: flex;
-    padding: 60px 20px;
+    padding: 40px 20px;
     justify-content: space-between;
     background: #383838;
     border-radius: 4px;
