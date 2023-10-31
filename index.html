@@ -16,6 +16,7 @@
     <header>
         <nav>
             <img src="https://framerusercontent.com/images/QhwrPOA5ANflrOAdH9bmFxRXtHk.svg" id="nav-img" alt="">
+            <img class="icon-img" id="icon" src="image/moon.png" alt="">
             <a href="">remix</a>
         </nav>
     </header>
@@ -27,7 +28,7 @@
 
     <div class="gallery-container">
 
-     <div class="gallery"> 
+     <div class="gallery"  onmouseover="bigImg(this)" onmouseout="normalImg(this)"> 
         <img class="image" src="image/BAiXr5My4VAD4nxaYRwfPw3yM.png">
          <div class="row">
             <div>
@@ -44,7 +45,7 @@
 
      </div>
 
-     <div class="gallery"> 
+     <div class="gallery" id="gallery2"> 
         <img class="image" src="image/tFJGulngU7ctPBkQKJsgDCkByw.png">
          <div class="row">
             <div>
@@ -60,7 +61,7 @@
         <br>
      </div>
 
-     <div class="gallery"> 
+     <div class="gallery" id="gallery3"> 
         <img class="image" src="image/6vvUKEJGERoJ6Gj3o4SVlwq2w.png">
          <div class="row">
             <div>
@@ -77,9 +78,6 @@
      </div>
        
     </div>
-
-
- 
      </div>
     </div>
 
@@ -88,6 +86,6 @@
         <p>Proudly built in in Framer by Anisarianii</p>
     </footer>
 
-
 </body>
+<script src="../main.js"></script>
 </html>
