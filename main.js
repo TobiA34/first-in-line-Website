@@ -1,4 +1,5 @@
  var icon = document.getElementById("icon");
+ var galleryContainer = document.getElementById("gallery-container")
 
  icon.onclick = function(){
     document.body.classList.toggle("dark-theme");
@@ -9,3 +10,9 @@
 
     }
  }
+
+galleryContainer.className = 'hidden';
+
+window.addEventListener("load", (event) => {
+galleryContainer.className = 'visible';
+});
